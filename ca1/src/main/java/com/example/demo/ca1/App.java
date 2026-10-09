@@ -22,9 +22,9 @@ public class App
 		driver.get("https://www.amazon.in");
         driver.findElement(By.xpath("//*[@id=\"nav-link-accountList-nav-line-1\"]")).click();
 //        driver.findElement(By.xpath("//*[@id=\"nav-signin-tooltip\"]/a/span")).click();
-        driver.findElement(By.xpath("//*[@id=\"ap_email\"]")).sendKeys("9976902697");
+        driver.findElement(By.xpath("//*[@id=\"ap_email\"]")).sendKeys("REDACTED");
         driver.findElement(By.xpath("//*[@id=\"continue\"]")).click();
-        driver.findElement(By.xpath("//*[@id=\"ap_password\"]")).sendKeys("hello@123");
+        driver.findElement(By.xpath("//*[@id=\"ap_password\"]")).sendKeys("REDACTED");
         driver.findElement(By.xpath("//*[@id=\"signInSubmit\"]")).click();
 //        driver.findElement(By.xpath("/html/body/div[1]/header/div/div[1]/div[2]/div/form/div[2]/div[1]/input")).sendKeys("iphone",Keys.ENTER);
 //        driver.findElement(By.xpath("//*[@id=\"search\"]/div[1]/div[1]/div/span[1]/div[1]/div[2]/div/div/div/div/div/div/div/div[2]/div/div/div[1]/h2/a")).click();

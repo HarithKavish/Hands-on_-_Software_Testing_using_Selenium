@@ -23,9 +23,9 @@ public class q2
 		driver.get("https://www.amazon.in");
         driver.findElement(By.xpath("//*[@id=\"nav-link-accountList-nav-line-1\"]")).click();
 //        driver.findElement(By.xpath("//*[@id=\"nav-signin-tooltip\"]/a/span")).click();
-        driver.findElement(By.xpath("//*[@id=\"ap_email\"]")).sendKeys("9976902697");
+        driver.findElement(By.xpath("//*[@id=\"ap_email\"]")).sendKeys("REDACTED");
         driver.findElement(By.xpath("//*[@id=\"continue\"]")).click();
-        driver.findElement(By.xpath("//*[@id=\"ap_password\"]")).sendKeys("hello@123");
+        driver.findElement(By.xpath("//*[@id=\"ap_password\"]")).sendKeys("REDACTED");
         driver.findElement(By.xpath("//*[@id=\"signInSubmit\"]")).click();
 		String currentTitle=driver.getTitle();
 		System.out.println(currentTitle);
